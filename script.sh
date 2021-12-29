@@ -1,6 +1,6 @@
 #Extrac Cert and Key from .crt file downloaded from apple developers Account
-#openssl pkcs12 -in apnss.p12 -out apnskey.key -nodes -nocerts 
-#openssl pkcs12 -in apnss.p12 -out apnskey.crt -nokeys
+openssl pkcs12 -in apnss.p12 -out apnskey.key -nodes -nocerts 
+openssl pkcs12 -in apnss.p12 -out apnskey.crt -nokeys
 
 #SandBox
 CERTIFICATE_FILE_NAME="Apple Push Sandbox Cert"
